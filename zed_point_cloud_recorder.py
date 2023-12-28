@@ -45,10 +45,8 @@ if __name__ == "__main__":
 
     # Get render object to set background color
     opt = vis.get_render_option()
-
     # I prefer a dark grey backgroud color
     opt.background_color = np.asarray([0.2, 0.2, 0.2])
-
     # How big you want for each point in the poit cloud
     opt.point_size = 0.5
 
